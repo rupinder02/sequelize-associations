@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon index.js"
   },
-  "author": "Loren Stewart",
+  "author": "Rupinder Singh",
   "license": "ISC",
   "dependencies": {
     "body-parser": "1.15.2",
