@@ -11,7 +11,7 @@ const app = express();
 const PORT = env.PORT;
 console.log("env: ", env);
 
-app.use(morgan('combined'));
+// app.use(morgan('combined'));
 app.use(bodyParser.json());
 
 app.use((req, res, next) => {

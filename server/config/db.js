@@ -7,6 +7,7 @@ const sequelize = new Sequelize(env.DATABASE_NAME, env.DATABASE_USERNAME, env.DA
   host: env.DATABASE_HOST,
   // port: env.DATABASE_PORT,
   dialect: env.DATABASE_DIALECT,
+  // logging: false
   // define: {
   //   underscored: true
   // }
